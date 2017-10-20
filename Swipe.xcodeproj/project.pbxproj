@@ -13,8 +13,9 @@
 		5C23B6861F9922F3000B07B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C23B6841F9922F3000B07B2 /* Main.storyboard */; };
 		5C23B6881F9922F3000B07B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C23B6871F9922F3000B07B2 /* Assets.xcassets */; };
 		5C23B68B1F9922F3000B07B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C23B6891F9922F3000B07B2 /* LaunchScreen.storyboard */; };
-		5C23B6961F9922F3000B07B2 /* Bouncing_BallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C23B6951F9922F3000B07B2 /* Bouncing_BallTests.m */; };
-		5C23B6A11F9922F3000B07B2 /* Bouncing_BallUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C23B6A01F9922F3000B07B2 /* Bouncing_BallUITests.m */; };
+		5C23B6961F9922F3000B07B2 /* SwipeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C23B6951F9922F3000B07B2 /* SwipeTests.m */; };
+		5C23B6A11F9922F3000B07B2 /* SwipeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C23B6A01F9922F3000B07B2 /* SwipeUITests.m */; };
+		5CF219CB1F9927E700FDF2C1 /* SecondView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF219CA1F9927E700FDF2C1 /* SecondView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5C23B6781F9922F3000B07B2 /* Bouncing Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bouncing Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C23B6781F9922F3000B07B2 /* Swipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C23B67C1F9922F3000B07B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5C23B67E1F9922F3000B07B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5C23B67F1F9922F3000B07B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,12 +46,14 @@
 		5C23B6871F9922F3000B07B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C23B68A1F9922F3000B07B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C23B68C1F9922F3000B07B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C23B6911F9922F3000B07B2 /* Bouncing BallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bouncing BallTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C23B6951F9922F3000B07B2 /* Bouncing_BallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bouncing_BallTests.m; sourceTree = "<group>"; };
+		5C23B6911F9922F3000B07B2 /* SwipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C23B6951F9922F3000B07B2 /* SwipeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeTests.m; sourceTree = "<group>"; };
 		5C23B6971F9922F3000B07B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C23B69C1F9922F3000B07B2 /* Bouncing BallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bouncing BallUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C23B6A01F9922F3000B07B2 /* Bouncing_BallUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bouncing_BallUITests.m; sourceTree = "<group>"; };
+		5C23B69C1F9922F3000B07B2 /* SwipeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C23B6A01F9922F3000B07B2 /* SwipeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeUITests.m; sourceTree = "<group>"; };
 		5C23B6A21F9922F3000B07B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CF219C91F9927E700FDF2C1 /* SecondView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondView.h; sourceTree = "<group>"; };
+		5CF219CA1F9927E700FDF2C1 /* SecondView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +84,11 @@
 		5C23B66F1F9922F3000B07B2 = {
 			isa = PBXGroup;
 			children = (
-				5C23B67A1F9922F3000B07B2 /* Bouncing Ball */,
-				5C23B6941F9922F3000B07B2 /* Bouncing BallTests */,
-				5C23B69F1F9922F3000B07B2 /* Bouncing BallUITests */,
+				5CF219C91F9927E700FDF2C1 /* SecondView.h */,
+				5CF219CA1F9927E700FDF2C1 /* SecondView.m */,
+				5C23B67A1F9922F3000B07B2 /* Swipe */,
+				5C23B6941F9922F3000B07B2 /* SwipeTests */,
+				5C23B69F1F9922F3000B07B2 /* SwipeUITests */,
 				5C23B6791F9922F3000B07B2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,14 +96,14 @@
 		5C23B6791F9922F3000B07B2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5C23B6781F9922F3000B07B2 /* Bouncing Ball.app */,
-				5C23B6911F9922F3000B07B2 /* Bouncing BallTests.xctest */,
-				5C23B69C1F9922F3000B07B2 /* Bouncing BallUITests.xctest */,
+				5C23B6781F9922F3000B07B2 /* Swipe.app */,
+				5C23B6911F9922F3000B07B2 /* SwipeTests.xctest */,
+				5C23B69C1F9922F3000B07B2 /* SwipeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5C23B67A1F9922F3000B07B2 /* Bouncing Ball */ = {
+		5C23B67A1F9922F3000B07B2 /* Swipe */ = {
 			isa = PBXGroup;
 			children = (
 				5C23B67E1F9922F3000B07B2 /* AppDelegate.h */,
@@ -111,7 +116,7 @@
 				5C23B68C1F9922F3000B07B2 /* Info.plist */,
 				5C23B67B1F9922F3000B07B2 /* Supporting Files */,
 			);
-			path = "Bouncing Ball";
+			path = Swipe;
 			sourceTree = "<group>";
 		};
 		5C23B67B1F9922F3000B07B2 /* Supporting Files */ = {
@@ -122,30 +127,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5C23B6941F9922F3000B07B2 /* Bouncing BallTests */ = {
+		5C23B6941F9922F3000B07B2 /* SwipeTests */ = {
 			isa = PBXGroup;
 			children = (
-				5C23B6951F9922F3000B07B2 /* Bouncing_BallTests.m */,
+				5C23B6951F9922F3000B07B2 /* SwipeTests.m */,
 				5C23B6971F9922F3000B07B2 /* Info.plist */,
 			);
-			path = "Bouncing BallTests";
+			path = SwipeTests;
 			sourceTree = "<group>";
 		};
-		5C23B69F1F9922F3000B07B2 /* Bouncing BallUITests */ = {
+		5C23B69F1F9922F3000B07B2 /* SwipeUITests */ = {
 			isa = PBXGroup;
 			children = (
-				5C23B6A01F9922F3000B07B2 /* Bouncing_BallUITests.m */,
+				5C23B6A01F9922F3000B07B2 /* SwipeUITests.m */,
 				5C23B6A21F9922F3000B07B2 /* Info.plist */,
 			);
-			path = "Bouncing BallUITests";
+			path = SwipeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5C23B6771F9922F3000B07B2 /* Bouncing Ball */ = {
+		5C23B6771F9922F3000B07B2 /* Swipe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C23B6A51F9922F3000B07B2 /* Build configuration list for PBXNativeTarget "Bouncing Ball" */;
+			buildConfigurationList = 5C23B6A51F9922F3000B07B2 /* Build configuration list for PBXNativeTarget "Swipe" */;
 			buildPhases = (
 				5C23B6741F9922F3000B07B2 /* Sources */,
 				5C23B6751F9922F3000B07B2 /* Frameworks */,
@@ -155,14 +160,14 @@
 			);
 			dependencies = (
 			);
-			name = "Bouncing Ball";
+			name = Swipe;
 			productName = "Bouncing Ball";
-			productReference = 5C23B6781F9922F3000B07B2 /* Bouncing Ball.app */;
+			productReference = 5C23B6781F9922F3000B07B2 /* Swipe.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5C23B6901F9922F3000B07B2 /* Bouncing BallTests */ = {
+		5C23B6901F9922F3000B07B2 /* SwipeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C23B6A81F9922F3000B07B2 /* Build configuration list for PBXNativeTarget "Bouncing BallTests" */;
+			buildConfigurationList = 5C23B6A81F9922F3000B07B2 /* Build configuration list for PBXNativeTarget "SwipeTests" */;
 			buildPhases = (
 				5C23B68D1F9922F3000B07B2 /* Sources */,
 				5C23B68E1F9922F3000B07B2 /* Frameworks */,
@@ -173,14 +178,14 @@
 			dependencies = (
 				5C23B6931F9922F3000B07B2 /* PBXTargetDependency */,
 			);
-			name = "Bouncing BallTests";
+			name = SwipeTests;
 			productName = "Bouncing BallTests";
-			productReference = 5C23B6911F9922F3000B07B2 /* Bouncing BallTests.xctest */;
+			productReference = 5C23B6911F9922F3000B07B2 /* SwipeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5C23B69B1F9922F3000B07B2 /* Bouncing BallUITests */ = {
+		5C23B69B1F9922F3000B07B2 /* SwipeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C23B6AB1F9922F3000B07B2 /* Build configuration list for PBXNativeTarget "Bouncing BallUITests" */;
+			buildConfigurationList = 5C23B6AB1F9922F3000B07B2 /* Build configuration list for PBXNativeTarget "SwipeUITests" */;
 			buildPhases = (
 				5C23B6981F9922F3000B07B2 /* Sources */,
 				5C23B6991F9922F3000B07B2 /* Frameworks */,
@@ -191,9 +196,9 @@
 			dependencies = (
 				5C23B69E1F9922F3000B07B2 /* PBXTargetDependency */,
 			);
-			name = "Bouncing BallUITests";
+			name = SwipeUITests;
 			productName = "Bouncing BallUITests";
-			productReference = 5C23B69C1F9922F3000B07B2 /* Bouncing BallUITests.xctest */;
+			productReference = 5C23B69C1F9922F3000B07B2 /* SwipeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -221,7 +226,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5C23B6731F9922F3000B07B2 /* Build configuration list for PBXProject "Bouncing Ball" */;
+			buildConfigurationList = 5C23B6731F9922F3000B07B2 /* Build configuration list for PBXProject "Swipe" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -234,9 +239,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5C23B6771F9922F3000B07B2 /* Bouncing Ball */,
-				5C23B6901F9922F3000B07B2 /* Bouncing BallTests */,
-				5C23B69B1F9922F3000B07B2 /* Bouncing BallUITests */,
+				5C23B6771F9922F3000B07B2 /* Swipe */,
+				5C23B6901F9922F3000B07B2 /* SwipeTests */,
+				5C23B69B1F9922F3000B07B2 /* SwipeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -275,6 +280,7 @@
 			files = (
 				5C23B6831F9922F3000B07B2 /* ViewController.m in Sources */,
 				5C23B6801F9922F3000B07B2 /* AppDelegate.m in Sources */,
+				5CF219CB1F9927E700FDF2C1 /* SecondView.m in Sources */,
 				5C23B67D1F9922F3000B07B2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C23B6961F9922F3000B07B2 /* Bouncing_BallTests.m in Sources */,
+				5C23B6961F9922F3000B07B2 /* SwipeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C23B6A11F9922F3000B07B2 /* Bouncing_BallUITests.m in Sources */,
+				5C23B6A11F9922F3000B07B2 /* SwipeUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,12 +306,12 @@
 /* Begin PBXTargetDependency section */
 		5C23B6931F9922F3000B07B2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5C23B6771F9922F3000B07B2 /* Bouncing Ball */;
+			target = 5C23B6771F9922F3000B07B2 /* Swipe */;
 			targetProxy = 5C23B6921F9922F3000B07B2 /* PBXContainerItemProxy */;
 		};
 		5C23B69E1F9922F3000B07B2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5C23B6771F9922F3000B07B2 /* Bouncing Ball */;
+			target = 5C23B6771F9922F3000B07B2 /* Swipe */;
 			targetProxy = 5C23B69D1F9922F3000B07B2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -424,9 +430,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Bouncing Ball/Info.plist";
+				INFOPLIST_FILE = Swipe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "excelcodes.Bouncing-Ball";
+				PRODUCT_BUNDLE_IDENTIFIER = excelcodes.Swipe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -435,9 +442,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Bouncing Ball/Info.plist";
+				INFOPLIST_FILE = Swipe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "excelcodes.Bouncing-Ball";
+				PRODUCT_BUNDLE_IDENTIFIER = excelcodes.Swipe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -450,7 +458,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "excelcodes.Bouncing-BallTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bouncing Ball.app/Bouncing Ball";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swipe.app/Swipe";
 			};
 			name = Debug;
 		};
@@ -462,7 +470,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "excelcodes.Bouncing-BallTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bouncing Ball.app/Bouncing Ball";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swipe.app/Swipe";
 			};
 			name = Release;
 		};
@@ -491,7 +499,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5C23B6731F9922F3000B07B2 /* Build configuration list for PBXProject "Bouncing Ball" */ = {
+		5C23B6731F9922F3000B07B2 /* Build configuration list for PBXProject "Swipe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C23B6A31F9922F3000B07B2 /* Debug */,
@@ -500,29 +508,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C23B6A51F9922F3000B07B2 /* Build configuration list for PBXNativeTarget "Bouncing Ball" */ = {
+		5C23B6A51F9922F3000B07B2 /* Build configuration list for PBXNativeTarget "Swipe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C23B6A61F9922F3000B07B2 /* Debug */,
 				5C23B6A71F9922F3000B07B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		5C23B6A81F9922F3000B07B2 /* Build configuration list for PBXNativeTarget "Bouncing BallTests" */ = {
+		5C23B6A81F9922F3000B07B2 /* Build configuration list for PBXNativeTarget "SwipeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C23B6A91F9922F3000B07B2 /* Debug */,
 				5C23B6AA1F9922F3000B07B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		5C23B6AB1F9922F3000B07B2 /* Build configuration list for PBXNativeTarget "Bouncing BallUITests" */ = {
+		5C23B6AB1F9922F3000B07B2 /* Build configuration list for PBXNativeTarget "SwipeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C23B6AC1F9922F3000B07B2 /* Debug */,
 				5C23B6AD1F9922F3000B07B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

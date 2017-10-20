@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SecondView.h
 //  Bouncing Ball
 //
 //  Created by excel on 10/19/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SecondView : UIViewController
 
 @end
-
